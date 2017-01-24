@@ -163,6 +163,7 @@
                                 </state>
                                 <connections>
                                     <action selector="didPressEqual:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l2U-Wj-KXe"/>
+                                    <action selector="didPressMultiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ivB-X8-RnG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUL-sc-uOA">
