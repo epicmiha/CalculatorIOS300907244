@@ -55,7 +55,7 @@
                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="didPressPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yhL-RA-ud0"/>
+                                    <action selector="didPressPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="APU-bz-D2s"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xh-H2-gFE">
@@ -95,8 +95,7 @@
                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="didPressSubstract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vvR-a8-rwi"/>
-                                    <action selector="didPressSubtract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xzU-SH-93O"/>
+                                    <action selector="didPressSubtract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="laf-Un-zA7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7Q-Ig-GUF">
@@ -135,6 +134,9 @@
                                 <state key="normal" title="*">
                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="didPressMultiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1h8-85-df1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rO-Lk-T1Q">
                                 <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
@@ -163,9 +165,7 @@
                                     <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="didPressEqual:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l2U-Wj-KXe"/>
-                                    <action selector="didPressEquals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j2w-N1-l87"/>
-                                    <action selector="didPressMultiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ivB-X8-RnG"/>
+                                    <action selector="didPressEquals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="toG-qz-pzY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUL-sc-uOA">
