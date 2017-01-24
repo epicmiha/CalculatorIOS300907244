@@ -96,6 +96,7 @@
                                 </state>
                                 <connections>
                                     <action selector="didPressSubstract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vvR-a8-rwi"/>
+                                    <action selector="didPressSubtract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xzU-SH-93O"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7Q-Ig-GUF">
@@ -163,6 +164,7 @@
                                 </state>
                                 <connections>
                                     <action selector="didPressEqual:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l2U-Wj-KXe"/>
+                                    <action selector="didPressEquals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j2w-N1-l87"/>
                                     <action selector="didPressMultiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ivB-X8-RnG"/>
                                 </connections>
                             </button>
